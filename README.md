@@ -6,114 +6,134 @@
     A Console-Based Hospital management System is more efficient in registration of their patients and manage appointments, records of patients. It enables doctors and admin to view and modify appointments schedules if required. The purpose of this project is to computerize all details regarding patient details and doctor details.
     <br/>
     <br/>
-    <a href=" https://github.com/NavaneethaBonala/Java-Project"> <strong> Github link for the Hospital Management System Project  »</strong></a>
+    <a href="https://github.com/NavaneethaBonala/Java-Project"> <strong> Github link for the Hospital Management System Project  »</strong></a>
     <br/>
   </p>
 </p>
 
-## Table Of Contents
+## Table Of Contents 
 
 - [About the Project](#about-the-project)
 - [Features](#features)
   - [Admin Module](#admin-module)
-    - [UserType Management](#usertype-management)
-    - [Patient Management](#patient-management)
-    - [Doctor Management](#doctor-management)
-    - [Appointment Management](#appointment-management)
-    - [Medical History Management](#medical-history-management)
-    - [Room Management](#room-management)
+    - [Functionalities](#functionalities) 
+      - [1.UserType Management](#1-usertype-management)
+      - [2.Patient Management](#2-patient-management)
+      - [3.Doctor Management](#3-doctor-management)
+      - [4.Appointment Management](#4-appointment-management)
+      - [5.Medical History Management](#5-medical-history-management)
+      - [6.Room Management](#6-room-management)
   - [Patient Module](#patient-module)
-    - [Personal Information](#personal-information)
-    - [View My Appointments](#view-my-appointments)
-    - [View Medical History](#view-medical-history)
-    - [Change Password](#change-password)
+    - [Functionalities](#functionalities) 
+      - [1.Personal Information](#1-personal-information)
+      - [2.View My Appointments](#2-view-my-appointments)
+      - [3.View Medical History](#3-view-my-medical-history)
+      - [4.Update patient Details](#4-update-patient-details)
+      - [5.Change Password](#5-change-password)
   - [Doctor Module](#doctor-module)
-    - [Personal Information](#personal-information)
-    - [View My Appointments](#view-my-appointments)
-    - [View Assigned Patients list](#view-assigned-patient-list)
-    - [Treat Patient](#treat-patient)
-    - [Change Password](#change-password)
+     - [Functionalities](#functionalities) 
+        - [1.Personal Information](#1-personal-information)
+        - [2.View My Appointments](#2-view-my-appointments)
+        - [3.View Assigned Patients list](#3-view-assigned-patient-list)
+        - [4.Treat Patient](#4-treat-patient)
+        - [5.Change Password](#5-change-password)
 
 
 # About The Project
 
 The Hospital Management System (HMS) serves as a comprehensive digital tool for hospitals, streamlining various administrative tasks and ensuring secure management of patient information. It includes user authentication to maintain confidentiality and access control, with separate login credentials and access levels for Admins, Doctors, and Patients.
 
-## Features
+## <ins>Features</ins>
 
-### Admin Module
+## Admin Module
 The Admin Login feature is designed to provide secure access to authorized administrators who oversee the college admissions process. Administrators access the system through a login process, ensuring data privacy and system integrity.
 
 Administrators must input their valid login credentials, including a username and password, to gain access. This authentication mechanism ensures that only authorized personnel can use the system's administrative functions.
 
-
-#### Functionalities
+### <ins>Functionalities</ins>
 
 Upon successful login, Admins gain access to a menu offering options such as:
-####UserType Management: 
+
+#### 1. UserType Management:   
 Enabling actions like viewing all users, adding new doctor credentials, and changing passwords.
 
-####Patient Management:
- Facilitating tasks such as viewing, adding, updating, and searching patient details.
+#### 2. Patient Management:  
+Facilitating tasks such as viewing, adding, updating, and searching patient details.
 
-####Doctor Management:  
+#### 3. Doctor Management:  
 Providing functionalities to Admin for managing doctor details, including viewing, adding, updating, and searching.
 
-####Appointment Management: 
+#### 4. Appointment Management:  
 Allowing the Admin to view, schedule the appointments, confirmation, cancellation, updating the Date and Time of the appointment, and searching for appointment details.
 
-####Medical History Management: 
+#### 5. Medical History Management:
 Enabling access to patient medical histories and search functionalities.
 
-####Rooms Management: 
+#### 6. Room Management:
 Facilitating the to view room details, allocate the room to patient , update the room duration, and searching of room details based on patient IDs.
 
-###Patient Module
+## Patient Module
 
 Once Patient have completed the registration process, they can conveniently log in using Username and Password.
+After Successful Log in , patient gain access to the functionality options such as:    
 
-After Successful Log in , patient gain access to the functionality options such as:
-#### Functionalities
+### <ins>Functionalities</ins>
 
-####Personal Info: 
+#### 1. Personal Information:
 Viewing their own details by entering their ID.
 
-####View My Appointments: 
+#### 2. View My Appointments:
 They can view their scheduled appointments with the Doctor.
 
-####View My Medical History: 
+#### 3. View My Medical History:
 Accessing their medical history using their ID.
 
-####Update Patient Details:
- Allowing for the update of contact details as Phone Number and Address
+#### 4. Update Patient Details:
+Allowing for the update of contact details as Phone Number and Address
 
-####Change Password: 
-Enabling Password change option incase user wants to update their password.
+#### 5. Change Password:
+Enabling Password change option in case user wants to update their password.
 
 
 
-###Doctor Module
+## Doctor Module
 
 Doctor have to log in using Username and Password provided.
-
 After Successful Log in , Doctor can access functionality options:
-#### Functionalities
 
-####Personal Info: 
+### <ins>Functionalities</ins>
+
+#### 1. Personal Information:
 Viewing their own details by entering their ID.
 
-####View My Appointments: 
+#### 2. View My Appointments:
 They can view their scheduled appointments with the Patient using Doctor ID
 
-####View Assigned Patients list: 
+#### 3. View Assigned Patient list:
 Doctor can view the list of patients treated by him.
-
-####Treat Patient:
+  
+#### 4. Treat Patient:
 After the Appointment is confirmed by the patient, they will visit the doctor for treatment.
 
-####Change Password: 
-Enabling Password change option incase user wants to update their password.
+#### 5. Change Password:
+Enabling Password change option in case user wants to update their password.
 
+## Validations:
 
-
-
+#### • Validate Email:
+In this case, it will allow user to insert an email in the E-mail format.
+ 
+#### • Validate Blood Group:
+In this case, it will only allow user to insert only(A+,A-,B+,B-,O+,O-,AB+,AB-) and it is a case sensitive it allow only upper case values.
+ 
+#### • Validate Gender:
+In this case, it will only allow user to insert(M,F,O) and it is not a case sensitive.
+ 
+#### • Validate Integer Input:
+In this case, it will allow user to insert only integer values.
+ 
+#### • Validate Phone Number:
+In this case, it will allow user to insert only 10 numbers (0-9).
+ 
+#### • Validate User Password:
+In this case, it will allow user to insert password as at least one upper case, at least one lower case, at least one number and at least one special character.

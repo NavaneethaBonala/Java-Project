@@ -37,7 +37,13 @@
         - [3.View Assigned Patients list](#3-view-assigned-patient-list)
         - [4.Treat Patient](#4-treat-patient)
         - [5.Change Password](#5-change-password)
-
+  - [Validations](#validations)
+      - [1.Validate Email](#1-validate-email)
+      - [2.Validate Blood Group](#2-validate-blood-group)
+      - [3.Validate Gender](#3-validate-gender)
+      - [4.Validate Integer Input](#4-validate-integer-input)
+      - [5.Validate Phone Number](#5-validate-phone-number)
+      - [6.Validate User Password](#6-validate-user-password)
 
 # About The Project
 
@@ -46,13 +52,14 @@ The Hospital Management System (HMS) serves as a comprehensive digital tool for 
 ## <ins>Features</ins>
 
 ## Admin Module
-The Admin Login feature is designed to provide secure access to authorized administrators who oversee the college admissions process. Administrators access the system through a login process, ensuring data privacy and system integrity.
+The Admin Login feature is designed to provide secure access to authorized administrators who oversee the Hospital Management process. Administrators access the system through a login process, ensuring data privacy and system integrity.
 
 Administrators must input their valid login credentials, including a username and password, to gain access. This authentication mechanism ensures that only authorized personnel can use the system's administrative functions.
 
-### <ins>Functionalities</ins>
 
-Upon successful login, Admins gain access to a menu offering options such as:
+Upon successful login, Admins gain access to a menu offering options such as,
+
+### <ins>Functionalities</ins>
 
 #### 1. UserType Management:   
 Enabling actions like viewing all users, adding new doctor credentials, and changing passwords.
@@ -75,7 +82,7 @@ Facilitating the to view room details, allocate the room to patient , update the
 ## Patient Module
 
 Once Patient have completed the registration process, they can conveniently log in using Username and Password.
-After Successful Log in , patient gain access to the functionality options such as:    
+After Successful Log in , patient gain access to the functionality options such as,    
 
 ### <ins>Functionalities</ins>
 
@@ -99,7 +106,7 @@ Enabling Password change option in case user wants to update their password.
 ## Doctor Module
 
 Doctor have to log in using Username and Password provided.
-After Successful Log in , Doctor can access functionality options:
+After Successful Log in , Doctor can access functionality options,
 
 ### <ins>Functionalities</ins>
 
@@ -120,20 +127,20 @@ Enabling Password change option in case user wants to update their password.
 
 ## Validations:
 
-#### • Validate Email:
+#### 1. Validate Email:
 In this case, it will allow user to insert an email in the E-mail format.
  
-#### • Validate Blood Group:
+#### 2. Validate Blood Group:
 In this case, it will only allow user to insert only(A+,A-,B+,B-,O+,O-,AB+,AB-) and it is a case sensitive it allow only upper case values.
  
-#### • Validate Gender:
+#### 3. Validate Gender:
 In this case, it will only allow user to insert(M,F,O) and it is not a case sensitive.
  
-#### • Validate Integer Input:
+#### 4. Validate Integer Input:
 In this case, it will allow user to insert only integer values.
  
-#### • Validate Phone Number:
+#### 5. Validate Phone Number:
 In this case, it will allow user to insert only 10 numbers (0-9).
  
-#### • Validate User Password:
+#### 6. Validate User Password:
 In this case, it will allow user to insert password as at least one upper case, at least one lower case, at least one number and at least one special character.
